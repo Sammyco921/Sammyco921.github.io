@@ -6,6 +6,66 @@
   <title>Get Support | Dakota Harvest of Hope</title>
 
   <link rel="stylesheet" href="css/styles.css">
+
+  <style>
+    /* Sticky header styles — move these into your main stylesheet if desired */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: white; /* ensure header covers content when sticky */
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+
+    /* Optional: preserve spacing so page content doesn't sit under header */
+    body {
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.75rem 1rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .logo img {
+      height: 40px;
+      width: auto;
+    }
+
+    .nav-links a {
+      margin-left: 1rem;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* If your page has a fixed header height, add top padding to the first section */
+    .section:first-of-type {
+      padding-top: 1.25rem;
+    }
+
+    /* Responsive tweak: stack nav on small screens (optional) */
+    @media (max-width: 700px) {
+      nav {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+    }
+  </style>
 </head>
 
 <body>
