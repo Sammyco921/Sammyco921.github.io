@@ -7,63 +7,12 @@
 
   <link rel="stylesheet" href="css/styles.css">
 
+  <!-- Keep button text white -->
   <style>
-    /* Sticky header styles — move these into your main stylesheet if desired */
-    header {
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      background: white; /* ensure header covers content when sticky */
-      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-    }
-
-    /* Optional: preserve spacing so page content doesn't sit under header */
-    body {
-      margin: 0;
-    }
-
-    nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0.75rem 1rem;
-      max-width: 1100px;
-      margin: 0 auto;
-    }
-
-    .logo {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .logo img {
-      height: 40px;
-      width: auto;
-    }
-
-    .nav-links a {
-      margin-left: 1rem;
-      text-decoration: none;
-      color: inherit;
-    }
-
-    /* If your page has a fixed header height, add top padding to the first section */
-    .section:first-of-type {
-      padding-top: 1.25rem;
-    }
-
-    /* Responsive tweak: stack nav on small screens (optional) */
-    @media (max-width: 700px) {
-      nav {
-        flex-direction: column;
-        gap: 0.5rem;
-      }
-      .nav-links {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-      }
+    .button,
+    .button:visited,
+    .button:hover {
+      color: white;
     }
   </style>
 </head>
@@ -87,35 +36,43 @@
     </nav>
   </header>
 
-  <!-- Use consistent section styling -->
-  <section class="section">
+  <!-- HERO (this is what you were missing) -->
+  <section class="hero">
     <h2>Get Support</h2>
-
     <p>
-      If you or someone you know is struggling, you are not alone.  
-      Reaching out is a strong first step.
+      You are not alone. We’re here to help you connect with others who understand the realities of agricultural life.
     </p>
 
+    <a href="mailto:contact@yourdomain.org?subject=Support%20Request&body=Hello,%0D%0A%0D%0AI would like to get support and connect with someone.%0D%0A%0D%0AThank you." class="button">
+      Contact Us
+    </a>
+  </section>
+
+  <section class="section">
+    <h3>How We Help</h3>
+
     <p>
-      We connect farmers and individuals facing stress, isolation, or mental health challenges with others who understand the realities of agricultural life.
+      Dakota Harvest of Hope connects farmers and individuals facing stress, isolation, or mental health challenges with others who truly understand agricultural life.
     </p>
 
-    <ul class="support-list">
+    <ul>
       <li>Peer support from people with shared experiences</li>
       <li>A safe space to talk and be heard</li>
       <li>Connection without judgment</li>
-      <li>Community-driven support, not clinical treatment</li>
+      <li>Community-driven support (not clinical treatment)</li>
     </ul>
+  </section>
+
+  <section class="section">
+    <h3>Important Information</h3>
 
     <p>
-      This is not a crisis service. If you are in immediate danger, contact local emergency services.
+      This organization provides peer support and community connection. We are not a licensed medical or mental health provider.
     </p>
 
-    <div class="button-container">
-      <a href="mailto:contact@yourdomain.org?subject=Support%20Request&body=Hello,%0D%0A%0D%0AI would like to get support and connect with someone.%0D%0A%0D%0AThank you." class="button">
-        Contact Us
-      </a>
-    </div>
+    <p>
+      If you are in immediate danger or experiencing a crisis, please contact local emergency services.
+    </p>
   </section>
 
   <footer>
