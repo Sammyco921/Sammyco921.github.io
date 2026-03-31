@@ -148,9 +148,9 @@ footer {
 }
 
 .footer-content {
-  max-width: 1000px;
-  margin: auto;
-}
+  text-align: left;          /* force left alignment */
+  max-width: 800px;          /* keeps it readable */
+  margin: 0 auto; 
 
 .footer-content p {
   margin-bottom: 6px;
