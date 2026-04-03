@@ -5,18 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog | Dakota Harvest of Hope</title>
 
-  <link rel="stylesheet" href="styles.css">
+  <!-- FIXED PATH -->
+  <link rel="stylesheet" href="css/styles.css">
 
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-    }
-
-  
-
-    /* Layout */
+    /* Page-specific styles only */
     .container {
       max-width: 900px;
       margin: 40px auto;
@@ -25,61 +18,76 @@
 
     h1 {
       color: #2e7d32;
+      margin-bottom: 20px;
     }
 
-    /* Blog cards */
     .post {
       background: white;
       padding: 20px;
       margin-bottom: 20px;
       border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     }
 
     .post h2 {
-      margin-top: 0;
+      margin-bottom: 10px;
     }
 
     .post p {
       color: #555;
+      margin-bottom: 10px;
     }
 
     .post a {
-      color: #2e7d32;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .post a:hover {
-      text-decoration: underline;
+      font-weight: 600;
     }
   </style>
 </head>
 
 <body>
 
-  <!-- NAVBAR -->
-  <div class="navbar">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="blog.html">Blog</a>
-    <a href="support.html">Get Support</a>
-    <a href="contact.html">Contact</a>
-    <a href="team.html">Our Team</a>
-  </div>
+  <!-- NAVBAR (FIXED + CONSISTENT) -->
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="images/Dakota Harvest of Hope.png" alt="Dakota Harvest of Hope Logo">
+        <span>Dakota Harvest of Hope</span>
+      </div>
 
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="blog.html" class="active">Blog</a>
+        <a href="support.html">Get Support</a>
+        <a href="contact.html">Contact</a>
+        <a href="team.html">Our Team</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- BLOG CONTENT -->
   <div class="container">
     <h1>Blog</h1>
 
     <!-- Post 1 -->
-  <div class="post">
-    <h2>Blog Post 1</h2>
+    <div class="post">
+      <h2>Blog Post 1</h2>
       <p>Brief description about Blog.</p>
-    <a href="blogs/blog4.02.26.html">Read More →</a>
-  </div>
+      <a href="blogs/blog4.02.26.html">Read More →</a>
+    </div>
 
-    <!-- Add new posts here -->
+    
 
+    <!-- Example Post Template -->
+    
+    <div class="post">
+      <h2>Post Title</h2>
+      <p>Short preview or summary of the blog post.</p>
+      <a href="blogs/your-post-file.html">Read More →</a>
+    </div>
+    
+<!-- Add new posts below -->
+    
   </div>
 
 </body>
