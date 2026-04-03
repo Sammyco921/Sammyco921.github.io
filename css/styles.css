@@ -184,3 +184,79 @@ footer {
     font-size: 1.8rem;
   }
 }
+
+
+/* =========================
+   IMAGE TITLE BAR (NEW)
+   Safe addition — does NOT modify existing styles
+========================= */
+
+.page-hero {
+  position: relative;
+  width: 100%;
+  height: 220px; /* adjust if needed */
+  overflow: hidden;
+}
+
+/* Image fills the bar */
+.page-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Dark overlay for readability */
+.page-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+/* Centered text on image */
+.page-hero-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  z-index: 1;
+  padding: 0 20px;
+}
+
+/* =========================
+   OPTIONAL: SUBTITLE UNDER TITLE
+========================= */
+
+.page-hero-subtitle {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #e5e5e5;
+  font-size: 1rem;
+  text-align: center;
+  z-index: 1;
+  padding: 0 20px;
+}
+
+/* =========================
+   RESPONSIVE ADJUSTMENTS
+========================= */
+@media (max-width: 768px) {
+  .page-hero {
+    height: 160px;
+  }
+
+  .page-hero-title {
+    font-size: 1.5rem;
+  }
+
+  .page-hero-subtitle {
+    font-size: 0.9rem;
+  }
+}
