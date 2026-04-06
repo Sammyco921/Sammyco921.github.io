@@ -1,15 +1,11 @@
-/* =========================
-   Global RESET
-========================= */
+/* Global RESET*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* =========================
-   BASE
-========================= */
+/*BASE*/
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   line-height: 1.6;
@@ -17,9 +13,7 @@ body {
   background-color: #fafafa;
 }
 
-/* =========================
-   HEADER / NAV
-========================= */
+/* HEADER / NAV */
 header {
   background-color: #ffffff;
   border-bottom: 1px solid #e5e5e5;
@@ -65,9 +59,7 @@ nav {
   color: #2e7d32;
 }
 
-/* =========================
-   IMAGE HERO (PRIMARY HERO SYSTEM)
-========================= */
+/* IMAGE HERO (PRIMARY HERO SYSTEM) */
 
 .page-hero {
   position: relative;
@@ -91,7 +83,7 @@ nav {
   background: rgba(0, 0, 0, 0.45);
 }
 
-/* Container for text */
+/* Text Container*/
 .page-hero-overlay {
   position: absolute;
   inset: 0;
@@ -140,9 +132,7 @@ nav {
   background-color: #256628;
 }
 
-/* =========================
-   SECTIONS
-========================= */
+/* SECTIONS */
 .section {
   max-width: 800px;
   margin: 45px auto;
@@ -173,9 +163,7 @@ nav {
   padding-top: 30px;
 }
 
-/* =========================
-   LINKS
-========================= */
+/* LINKs*/
 a {
   color: #2e7d32;
 }
@@ -184,9 +172,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* =========================
-   BUTTON (GLOBAL)
-========================= */
+/* BUTTONS (GLOBAL) */
 .button {
   display: inline-block;
   padding: 10px 18px;
@@ -202,9 +188,7 @@ a:hover {
   background-color: #256628;
 }
 
-/* =========================
-   FOOTER
-========================= */
+/* FOOTER */
 footer {
   background-color: #1f2933;
   color: #d1d5db;
@@ -227,9 +211,7 @@ footer {
   color: #ffffff;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
+/* RESPONSIVE PARTS */
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
