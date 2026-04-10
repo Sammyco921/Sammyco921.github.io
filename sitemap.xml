@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home -->
+  <url>
+    <loc>https://dakotaharvestofhope.org/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Core pages -->
+  <url>
+    <loc>https://dakotaharvestofhope.org/about.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://dakotaharvestofhope.org/blog.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://dakotaharvestofhope.org/support.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://dakotaharvestofhope.org/contact.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://dakotaharvestofhope.org/team.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog posts -->
+  <url>
+    <loc>https://dakotaharvestofhope.org/blogs/blog-no-farmer-stands-alone.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
