@@ -129,7 +129,7 @@ nav {
 
 /* Image */
 .team-member img {
-  width: 130px;
+  width: 165px;
   height: 130px; /* EDIT HERE TO ADJUST IMAGE SIZE */
   object-fit: cover;
   flex-shrink: 0;
