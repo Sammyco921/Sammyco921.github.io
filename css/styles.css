@@ -119,6 +119,18 @@ nav {
   padding: 0 20px;
 }
 
+/* All section headers */
+.section :is(h1, h2, h3, h4, h5, h6) {
+  color: #2e7d32;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* Paragraph spacing */
+.section p {
+  margin-bottom: 15px;
+}
+
 /* TEAM LAYOUT */
 .team-member {
   display: flex;
