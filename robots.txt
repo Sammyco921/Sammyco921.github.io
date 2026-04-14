@@ -1,10 +1,4 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://dakotaharvestofhope.org/sitemap.xml
-
-User-agent: Googlebot
-Allow: /DakotaHarvest-of-Hope.png
-
-User-agent: Googlebot-Image
 Allow: /DakotaHarvest-of-Hope.png
