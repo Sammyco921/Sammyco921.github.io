@@ -1,0 +1,71 @@
+<!--
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Dakota Harvest of Hope</title>
+  <meta name="description" content="Stories and updates focused on mental health, resilience, and community support in agriculture.">
+
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="../images/DakotaHarvest-of-Hope.png" alt="Dakota Harvest of Hope Logo">
+        <span>Dakota Harvest of Hope</span>
+      </div>
+
+      <div class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+        <a href="../blog.html">Blog</a>
+        <a href="../support.html">Get Support</a>
+        <a href="../contact.html">Contact</a>
+        <a href="../team.html">Our Team</a>
+      </div>
+    </nav>
+  </header>
+  
+  <section class="section">
+    <h1></h1>
+    <p>
+      At Dakota Harvest of Hope, we believe no farmer has to struggle alone. 
+      Farming is a crucial job for our economy locally and nationally. Farming is a job that takes devotion, precision, 
+      and time, but being a farmer comes with difficult challenges as well. Many farmers may feel isolation, stress, financial 
+      pressures, and experiences that could leave a long term impact on a farmer’s mental and emotional health, including PTSD. 
+      Strong, patriotic farmers tend to bottle their emotions in, leading to these struggles going unspoken. 
+    </p>
+    
+    <p>
+      Our mission at Dakota Harvest of Hope is for these struggles not to go unspoken and bring our Dakota farmers together to support
+      one another by creating a community of farmers that can talk, connect, and share experiences. Ultimately, creating trust and 
+      brotherhood between farmers enrooted by similar struggles. We plan to bring farmers together whether it is through small gatherings
+      or just knowing someone else who understands. Those connections can make a real difference. 
+    </p>
+
+    <p>
+      As we head into our early stages as a non-profit we here at Dakota Harvest of Hope plan to focus on making our
+      mission become a reality. As we say rooted in strength, growing in hope.
+    </p>
+
+  </section>
+  
+   <footer>
+    <div class="footer-content">
+      <p><strong>Dakota Harvest of Hope</strong></p>
+      <p>Serving North Dakota and neighboring states</p>
+      <p>Email: contact@yourdomain.org</p>
+      <p>&copy; 2026 Dakota Harvest of Hope. All rights reserved. Some images are in the public domain or used under applicable licenses.</p>
+      <p>This organization provides peer support and community connection. It is not a licensed medical or mental health provider.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+-->
+  
