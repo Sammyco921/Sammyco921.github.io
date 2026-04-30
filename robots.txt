@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://dakotaharvestofhope.org/sitemap.xml
-Allow: /DakotaHarvest-of-Hope.png
+
+Sitemap: https://www.dakotaharvestofhope.org/sitemap.xml
